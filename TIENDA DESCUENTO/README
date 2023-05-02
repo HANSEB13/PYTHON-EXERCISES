@@ -1,0 +1,22 @@
+### TIENDA CON DESCUENTOS 
+Imagine que la tienda donde trabaja ofrece descuentos a los clientes
+en navidad, de acuerdo con el monton de su compra. el criterio para establecer el
+descuento se muestra a continuacion:
+
+si es menor a 80 = 0%
+si es mayor o igual a 80 y menor a 150 = 10%
+si es mayor o igual a 150 y menor o igual a 300 = 150%
+si es mayor a 300 y menor a 500 = 20%
+------------------------------------------------------------------------------------
+Teniendo en cuenta la tabla, te piden que escribas un programa que
+solicite el nombre del cliente y el valor de la compra. Y que arroje como resultado:
+
+1. nombre del cliente
+2. valor de la compra sin descuento
+3. valor de la compra con descuento
+-------------------------------------------------------------------------------------
+Recuerde que para calcular el descuento primero debe multiplicar el valor de la compra por el porcentaje.
+Luego, debe restar el valor obtenido al valor de la compra y con eso obtiene el precio con descuento.
+
+1. descuento =valor_compra x porcentaje
+2. precio final =valor_compra -descuento
