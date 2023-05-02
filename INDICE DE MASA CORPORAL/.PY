@@ -2,6 +2,8 @@
 
 contador =0
 
+print("CALCULADORA DE  INDICE MASA CORPORAL (IMC) \n")
+
 while contador != 2:
     contador = int(input("Quieres seguir calculando el indice de masa corporal? 1.si y 2.no \n"))
 
@@ -18,3 +20,8 @@ while contador != 2:
             print(f'Indice de masa corporal {resultado} = Sobrepeso')
         elif resultado > 30:
             print(f'Indice de masa corporal {resultado} = Obesidad')
+
+    elif contador ==2:
+        print("Hasta pronto")
+
+print("Gracias por usar la calculadora de indice de masa corporal")
