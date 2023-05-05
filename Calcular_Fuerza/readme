@@ -1,2 +1,2 @@
-Este código parece ser un programa en Python que calcula la fuerza entre dos cargas eléctricas utilizando la ley de Coulomb.
+Este código de Python calcula la fuerza entre dos cargas eléctricas utilizando la ley de Coulomb.
 El código define dos funciones: calcularFuerza y run. La función calcularFuerza toma como argumentos los valores de las dos cargas y la distancia entre ellas y devuelve el valor de la fuerza calculada. La función run solicita al usuario que ingrese los valores de las cargas y la distancia y luego llama a la función calcularFuerza para calcular y mostrar el resultado
