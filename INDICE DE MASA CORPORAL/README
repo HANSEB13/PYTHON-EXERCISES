@@ -1,3 +1,7 @@
-El especialista colocara si desea seguri calculando la masa corporal de sus clientes, despues escribira la altura y  el peso. 
-Automaticamente saldra el calculo y describira si el paciente se encuentra bajo de peso , si esta en un peso normal , si esta en sobre peso , 
-o si esta en estado de obecidad 
+Este código es un programa en Python que calcula el índice de masa corporal (IMC) de una persona. El programa comienza inicializando una variable contador en 0 y luego imprime un mensaje para indicar que es una calculadora de IMC.
+
+Luego, el programa entra en un bucle while que se ejecuta mientras el valor de contador sea diferente de 2. Dentro del bucle, el programa solicita al usuario que ingrese si desea continuar calculando el IMC o no. Si el usuario ingresa 1, el programa solicita al usuario que ingrese su estatura en metros y su peso en kilogramos. Luego, el programa calcula el IMC utilizando la fórmula peso / (estatura ** 2) y redondea el resultado a 2 decimales.
+
+Después de calcular el IMC, el programa verifica en qué rango de IMC se encuentra el resultado utilizando una serie de condicionales if y elif. Dependiendo del rango en que se encuentre el resultado, el programa imprime un mensaje indicando si la persona está bajo peso, tiene un peso normal, tiene sobrepeso o tiene obesidad.
+
+Si el usuario ingresa 2 cuando se le pregunta si desea continuar calculando el IMC, el programa sale del bucle while e imprime un mensaje de despedida. Finalmente, después de salir del bucle, el programa imprime un mensaje agradeciendo al usuario por usar la calculadora de IMC.
