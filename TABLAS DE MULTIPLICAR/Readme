@@ -1,3 +1,6 @@
 TABLAS DE MULTIPLICAR 
-Se realiza la pregunta de que numero quieres tener la tabla de multiplicar .
-Cuando se digita el numero se arrojaran los resultados de acuerdo al codigo.
+Este código es un programa en Python que genera la tabla de multiplicar de un número ingresado por el usuario. El programa comienza solicitando al usuario que ingrese un número utilizando la función input. Luego, el programa convierte el valor ingresado a un entero utilizando la función int y lo almacena en la variable numero.
+
+Después de obtener el valor de numero, el programa imprime una línea en blanco y luego imprime un mensaje indicando que se va a generar la tabla de multiplicar del número ingresado. El mensaje se construye utilizando una cadena formateada (f-string) que inserta el valor de numero en el mensaje.
+
+Luego, el programa entra en un bucle for que se ejecuta 10 veces. En cada iteración del bucle, el programa calcula el producto de i y numero y lo imprime en la pantalla utilizando otra cadena formateada. El resultado es una tabla de multiplicar del número ingresado por el usuario.
